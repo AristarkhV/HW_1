@@ -1,5 +1,4 @@
 package com.company;
-
 public class Power extends Service {
 
     static double getPower(int Number, int Power) {
