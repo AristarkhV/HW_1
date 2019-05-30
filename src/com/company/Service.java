@@ -1,6 +1,5 @@
 package com.company;
 import java.util.Scanner;
-
 public class Service {
 
     Scanner scan = new Scanner(System.in);
