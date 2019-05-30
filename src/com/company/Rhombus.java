@@ -1,7 +1,9 @@
 package com.company;
+
 public class Rhombus extends Service {
 
     public void getOutput(int NumbAsterisk) {
+
         for (int i = 0; i <= NumbAsterisk; i = i + 2) {
             for (int putSpace = 0; putSpace < NumbAsterisk / 2 - i / 2 + NumbAsterisk % 2; putSpace++)
                 System.out.print(" ");
@@ -18,3 +20,5 @@ public class Rhombus extends Service {
         }
     }
 }
+
+
