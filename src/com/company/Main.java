@@ -31,20 +31,17 @@ public class Main {
                 System.out.println("Match result: " + newFootballMatch.MatchForecast(RealOutcome1, RealOutcome2, Forecast1, Forecast2));
                 System.exit(0);
             }
-
             case 2: {
-
                 Rhombus newRhombus = new Rhombus();
                 System.out.println("Enter rhombus size:");
                 newRhombus.getOutput(newRhombus.getInt());
                 System.exit(0);
             }
-
             case 3: {
                 Power newPower = new Power();
                 System.out.println("Enter number");
                 int Num = newPower.getInt();
-                System.out.println("Enter power");
+                System. out.println("Enter power");
                 int Pow = newPower.getInt();
                 System.out.println(Num + " ^ " + Pow + " = " + newPower.getPower(Num, Pow));
                 System.exit(0);
@@ -54,6 +51,5 @@ public class Main {
                 System.exit(0);
             }
         }
-
     }
 }
